@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAMA TEMENKUU</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: blue;
+        }
+        table {
+            border-collapse: collapse;
+            width: 150%;
+            margin-top:50px;
+            padding: 10px;
+            height: 200px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ayoo Login</h1>
+    
+    <form action="">
+        <label for="fname">Nama awal:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Nama akhir:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" onclick="berhasil()" value="Submit">
+    </form>
+<script>
+  function berhasil(){
+    alert("Selamat login anda berhasil");
+  }
+</script>
+<style>
+    table{
+        font-family: Arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    td,th{
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8PX;
+    }
+    tr:nth-child(even){
+        background-color: #dddddd;
+    }
+</style>
+    <h2>Nama temenkuu</h2>
+    <table border="table">
+        <tr>
+            <th>Nama</th>
+            <th>Tanggal lahir</th>
+            <th>Tempat lahir</th>
+        </tr>
+        <tr>
+            <td>Ismi</td>
+            <td>02,05,2008</td>
+            <td>Jakarta</td>
+        </tr>
+        <tr>
+            <td>Arla</td>
+            <td>08,02,2008</td>
+            <td>Tanggerang</td>
+        </tr>
+        <tr>
+            <td>Arlin</td>
+            <td>19,07,2007</td>
+            <td>Tanggerang selatan</td>
+        </tr>
+        <tr>
+            <td>Agis</td>
+            <td>25,10,2007</td>
+            <td>Tanggerang</td>
+        </tr>
+        <tr>
+          <td>Siti</td>
+          <td>21,01,2008</td>
+          <td>Tanggerang </td>
+        </tr>
+        <tr>
+          <td>Naysilla</td>
+          <td>30,03,2008</td>
+          <td>Tanggerang Selatan </td>
+        </tr>
+    </table>
+</body>
+</html>
+
